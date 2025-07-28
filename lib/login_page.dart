@@ -78,7 +78,7 @@ class LoginScreen extends StatelessWidget {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (_) => SignupScreen()),
+                      MaterialPageRoute(builder: (_) => SingUpScreenWithBloc()),
                     );
                   },
                   child: RichText(
